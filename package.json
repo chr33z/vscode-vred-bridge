@@ -1,8 +1,18 @@
 {
 	"name": "vscode-vred-bridge",
 	"displayName": "VRED Bridge",
-	"description": "",
+	"description": "Run python scripts in VRED from VS Code",
 	"version": "0.0.1",
+	"publisher": "chr33z",
+	"icon": "icon.png",
+	"author": {
+		"name": "Christopher Gebhardt",
+		"email": "chr33z@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/chr33z/vscode-vred-bridge"
+	},
 	"engines": {
 		"vscode": "^1.62.0"
 	},

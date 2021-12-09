@@ -1,70 +1,24 @@
-# vscode-vred-bridge README
+# VRED Bridge
 
-This is the README for your extension "vscode-vred-bridge". After writing up a brief description, we recommend including the following sections.
+## Visual Studio Code Tools for Autodesk VRED
 
-## Features
+Writing complex plugins for Autodesk VRED can be a tedious process. This extension aims to provide tools to help with VRED plugin development and get rid of some shortcomings of the default workflow. **This extension provides a direct way to run python scripts in VRED from VS Code, without copying it to the internal VRED editor.**
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## Howto
 
-For example if there is an image subfolder under your extension project workspace:
+1. Activate VRED internal webinterface in the webinterface preferences: [Webinterface Preferences](https://knowledge.autodesk.com/support/vred-products/learn-explore/caas/CloudHelp/cloudhelp/2021/ENU/VRED/files/Preferences/VRED-Preferences-WebInterface-Preferences-html-html.html)
+2. Set the port number in VRED Bridge to the port number you set in the webinterface preferences (default is "8888"). Open the command "VRED Bridge: Set port number" in VS Code with ```Ctrl + Shift + P``` and typing in the command. This step is optional since VREDs default port is also 8888.
+3. Start writing a python script in a new file and run the command "VRED Bridge: Run python" by opening the command line with ```Ctrl + Shift + P``` and typing the command.
 
-\!\[feature X\]\(images/feature-x.png\)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
-## Requirements
+## Disclaimer
+This extension is currently in ALPHA state. If you have any feedback, bugs or feature requests, please feel free to contact me via my [github account](https://github.com/chr33z) or via chr33z@gmail.com
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+This is not an official Autodesk VRED extension.
 
-## Extension Settings
+## Looking for an Autodesk VRED consultant / technical adviser / coding coach / programmer?
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+- It's your lucky day! I'm offering my services as the above mentioned!
+- Please contact me via my [github account](https://github.com/chr33z), via chr33z@gmail.com or cg@ideenkultivierung.de
 
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
